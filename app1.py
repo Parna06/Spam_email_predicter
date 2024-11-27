@@ -7,7 +7,7 @@ from nltk.stem.porter import PorterStemmer
 
 # Download required NLTK data
 try:
-    nltk.download('punkt')
+    nltk.download('punkt_tab')
     nltk.download('stopwords')
 except Exception as e:
     st.error(f"Error downloading NLTK data: {e}")
